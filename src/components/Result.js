@@ -17,7 +17,7 @@ const  Result = props => {
         <h3>Wyniki wyszukiwania dla <em>{city}</em></h3>
         <h4>Dla dnia i godziny: {date}</h4>
         <h4>Aktualna temperatura: {Math.floor(temp)} &#176;C</h4>
-        <h4>Wschód słońca dzisiaj o{sunriseTime}</h4>
+        <h4>Wschód słońca dzisiaj o {sunriseTime}</h4>
         <h4>Zachód słońca dzisiaj o {sunsetTime }</h4>
         <h4>Atualne ciśnienie {pressure} hPa</h4>
         </div>
